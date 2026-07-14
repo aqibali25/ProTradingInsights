@@ -26,6 +26,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
 </noscript>
 <!-- End Meta Pixel Code -->
 
+
   <style>
     :root {
       --bg: #03131f;
@@ -40,23 +41,23 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       --muted: #92a8b5;
       --success: #4df0a3;
     }
-
+ 
     * { box-sizing: border-box; }
-
+ 
     html, body {
       width: 100%;
       min-height: 100%;
       margin: 0;
     }
-
+ 
     body {
       font-family: Arial, Helvetica, sans-serif;
       color: var(--text);
       background: var(--bg);
     }
-
+ 
     a { color: inherit; }
-
+ 
     .page-shell {
       position: relative;
       width: 100%;
@@ -70,7 +71,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
         radial-gradient(circle at 50% 2%, rgba(45, 213, 205, 0.13), transparent 34%),
         linear-gradient(145deg, #020b12 0%, #041724 52%, #071f2e 100%);
     }
-
+ 
     .grid-overlay {
       position: absolute;
       inset: 0;
@@ -83,7 +84,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       mask-image: linear-gradient(to bottom, black 15%, transparent 100%);
       -webkit-mask-image: linear-gradient(to bottom, black 15%, transparent 100%);
     }
-
+ 
     .ambient {
       position: absolute;
       z-index: -2;
@@ -91,19 +92,19 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       filter: blur(80px);
       pointer-events: none;
     }
-
+ 
     .ambient-one {
       width: 360px; height: 360px;
       top: -150px; left: 12%;
       background: rgba(17, 188, 194, 0.2);
     }
-
+ 
     .ambient-two {
       width: 420px; height: 420px;
       right: 8%; bottom: -230px;
       background: rgba(232, 180, 94, 0.14);
     }
-
+ 
     .hero {
       width: min(920px, calc(100% - 32px));
       display: flex;
@@ -112,13 +113,13 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       gap: 12px;
       padding: 18px 0 16px;
     }
-
+ 
     .brand-row {
       display: flex;
       align-items: center;
       gap: 14px;
     }
-
+ 
     .logo-wrap {
       width: 58px; height: 58px;
       flex: 0 0 auto;
@@ -127,13 +128,13 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       border: 1px solid rgba(87, 231, 223, 0.46);
       box-shadow: 0 0 28px rgba(32, 201, 194, 0.2);
     }
-
+ 
     .logo-wrap img {
       width: 100%; height: 100%;
       object-fit: cover;
       display: block;
     }
-
+ 
     .brand-badge {
       min-height: 32px;
       display: inline-flex;
@@ -148,14 +149,14 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       font-weight: 800;
       letter-spacing: 2.2px;
     }
-
+ 
     .brand-badge svg {
       width: 14px; height: 14px;
       flex-shrink: 0;
     }
-
+ 
     .heading-block { text-align: center; }
-
+ 
     .eyebrow {
       margin: 0 0 5px;
       color: var(--primary);
@@ -164,7 +165,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       letter-spacing: 3px;
       text-transform: uppercase;
     }
-
+ 
     h1 {
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
@@ -177,7 +178,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       color: transparent;
       text-shadow: 0 10px 38px rgba(75, 234, 226, 0.1);
     }
-
+ 
     .subtitle {
       max-width: 680px;
       margin: 9px auto 0;
@@ -185,14 +186,14 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       font-size: 14px;
       line-height: 1.45;
     }
-
+ 
     .feature-grid {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 10px;
     }
-
+ 
     .feature-card {
       min-height: 112px;
       display: flex;
@@ -206,7 +207,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       backdrop-filter: blur(10px);
       transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
     }
-
+ 
     .feature-card:hover {
       transform: translateY(-3px);
       border-color: rgba(87, 231, 223, 0.55);
@@ -214,7 +215,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
         linear-gradient(135deg, rgba(87, 231, 223, 0.1), transparent 70%),
         var(--panel-strong);
     }
-
+ 
     .icon-box {
       width: 44px; height: 44px;
       display: grid;
@@ -224,7 +225,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       border: 1px solid rgba(87, 231, 223, 0.22);
       background: rgba(87, 231, 223, 0.08);
     }
-
+ 
     .icon-box svg {
       width: 23px; height: 23px;
       stroke: currentColor;
@@ -233,13 +234,13 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       stroke-linecap: round;
       stroke-linejoin: round;
     }
-
+ 
     .feature-card:nth-child(2n) .icon-box {
       color: var(--accent);
       border-color: rgba(232, 180, 94, 0.25);
       background: rgba(232, 180, 94, 0.08);
     }
-
+ 
     .feature-card h2 {
       margin: 0 0 5px;
       color: #ecfeff;
@@ -247,14 +248,14 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       letter-spacing: 0.5px;
       text-transform: uppercase;
     }
-
+ 
     .feature-card p {
       margin: 0;
       color: var(--muted);
       font-size: 11.5px;
       line-height: 1.4;
     }
-
+ 
     .stats-panel {
       width: 100%;
       min-height: 66px;
@@ -264,9 +265,9 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       border: 1px solid var(--border);
       background: rgba(3, 18, 28, 0.78);
     }
-
+ 
     .stat-item { text-align: center; }
-
+ 
     .stat-item strong {
       display: block;
       color: var(--accent);
@@ -274,7 +275,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       font-size: 27px;
       line-height: 1;
     }
-
+ 
     .stat-item span {
       display: block;
       margin-top: 5px;
@@ -284,12 +285,12 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       letter-spacing: 1.8px;
       text-transform: uppercase;
     }
-
+ 
     .stat-divider {
       width: 1px; height: 34px;
       background: rgba(87, 231, 223, 0.17);
     }
-
+ 
     .live-status {
       display: inline-flex;
       align-items: center;
@@ -300,7 +301,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       letter-spacing: 2.3px;
       text-transform: uppercase;
     }
-
+ 
     .live-dot {
       width: 8px; height: 8px;
       border-radius: 50%;
@@ -308,7 +309,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       box-shadow: 0 0 0 6px rgba(77, 240, 163, 0.08), 0 0 18px rgba(77, 240, 163, 0.7);
       animation: pulse 1.8s infinite;
     }
-
+ 
     .cta {
       width: 100%;
       min-height: 54px;
@@ -327,12 +328,12 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       box-shadow: 0 12px 35px rgba(32, 201, 194, 0.25);
       transition: transform 180ms ease, filter 180ms ease;
     }
-
+ 
     .cta:hover {
       transform: translateY(-2px);
       filter: brightness(1.05);
     }
-
+ 
     .cta svg {
       width: 22px; height: 22px;
       stroke: currentColor;
@@ -342,29 +343,29 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       stroke-linejoin: round;
       flex-shrink: 0;
     }
-
+ 
     .trust-line, .disclaimer {
       margin: 0;
       text-align: center;
     }
-
+ 
     .trust-line {
       color: var(--success);
       font-size: 10px;
       font-weight: 700;
       letter-spacing: 0.8px;
     }
-
+ 
     .disclaimer {
       color: #55707e;
       font-size: 9px;
     }
-
+ 
     @keyframes pulse {
       0%, 100% { transform: scale(1); opacity: 1; }
       50% { transform: scale(0.82); opacity: 0.65; }
     }
-
+ 
     @media (max-width: 760px) {
       .page-shell { height: 100svh; min-height: 650px; }
       .hero { width: min(620px, calc(100% - 20px)); gap: 9px; padding: 10px 0; }
@@ -383,7 +384,7 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       .cta { min-height: 48px; font-size: 11px; letter-spacing: 1.5px; }
       .trust-line { font-size: 8px; }
     }
-
+ 
     @media (max-width: 420px) {
       .feature-card p { display: none; }
       .feature-card { min-height: 70px; }
@@ -393,14 +394,14 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
   </style>
 </head>
 <body>
-
+ 
 <main class="page-shell">
   <div class="ambient ambient-one"></div>
   <div class="ambient ambient-two"></div>
   <div class="grid-overlay"></div>
-
+ 
   <section class="hero" aria-labelledby="hero-title">
-
+ 
     <div class="brand-row">
       <div class="brand-badge">
         <!-- Sparkles icon -->
@@ -409,20 +410,21 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
         </svg>
         Professional Gold Trading Community
       </div>
-
+ 
       <div class="logo-wrap">
         <img src="pro-trading-insights-logo.jpeg" alt="Pro Trading Insights logo" />
       </div>
     </div>
-
+ 
     <div class="heading-block">
       <p class="eyebrow">Strategy • Execution • Growth</p>
       <h1 id="hero-title">Pro Trading Insights</h1>
       <p class="subtitle">Smart XAUUSD analysis, disciplined setups, and practical trading education.</p>
     </div>
-
+ 
     <div class="feature-grid">
-
+ 
+      <!-- Activity icon (pulse wave) -->
       <article class="feature-card">
         <div class="icon-box" aria-hidden="true">
           <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
@@ -432,59 +434,94 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
           <p>Focused XAUUSD bias, key levels, and likely scenarios.</p>
         </div>
       </article>
-
+ 
+      <!-- Radio icon (concentric signal waves) -->
       <article class="feature-card">
         <div class="icon-box" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.56 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M21.06 18.37a10.94 10.94 0 0 1-5.17 2.39"/><path d="M8.94 21a15.91 15.91 0 0 1-6.54-4.76"/></svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"/>
+            <path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"/>
+            <circle cx="12" cy="12" r="2"/>
+            <path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"/>
+            <path d="M19.1 4.9C23 8.8 23 15.1 19.1 19"/>
+          </svg>
         </div>
         <div>
           <h2>Live Trade Updates</h2>
           <p>Clear updates during active sessions without unnecessary noise.</p>
         </div>
       </article>
-
+ 
+      <!-- ChartNoAxesCombined icon (bar chart lines) -->
       <article class="feature-card">
         <div class="icon-box" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 16v5"/>
+            <path d="M16 14v7"/>
+            <path d="M20 10v11"/>
+            <path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"/>
+            <path d="M4 18v3"/>
+            <path d="M8 14v7"/>
+          </svg>
         </div>
         <div>
           <h2>Technical Breakdowns</h2>
           <p>Simple chart analysis built around structure and confirmation.</p>
         </div>
       </article>
-
+ 
+      <!-- Crosshair icon -->
       <article class="feature-card">
         <div class="icon-box" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="22" y1="12" x2="18" y2="12"/>
+            <line x1="6" y1="12" x2="2" y2="12"/>
+            <line x1="12" y1="6" x2="12" y2="2"/>
+            <line x1="12" y1="22" x2="12" y2="18"/>
+          </svg>
         </div>
         <div>
           <h2>Precision Entries</h2>
           <p>Entry zones, invalidation points, and realistic target planning.</p>
         </div>
       </article>
-
+ 
+      <!-- ShieldCheck icon -->
       <article class="feature-card">
         <div class="icon-box" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <polyline points="9 12 11 14 15 10"/>
+          </svg>
         </div>
         <div>
           <h2>Risk First Approach</h2>
           <p>Position sizing and capital protection before profit chasing.</p>
         </div>
       </article>
-
+ 
+      <!-- BookOpenCheck icon -->
       <article class="feature-card">
         <div class="icon-box" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 21V7"/>
+            <path d="M3 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+            <path d="M13 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+            <path d="M2 7h20"/>
+            <path d="M5 7v12a2 2 0 0 0 2 2h3"/>
+            <path d="M19 7v12a2 2 0 0 1-2 2h-3"/>
+            <polyline points="14 15 16 17 20 13"/>
+          </svg>
         </div>
         <div>
           <h2>Trader Education</h2>
           <p>Short practical lessons for stronger long-term execution.</p>
         </div>
       </article>
-
+ 
     </div>
-
+ 
     <div class="stats-panel" aria-label="Channel highlights">
       <div class="stat-item">
         <strong>50+</strong>
@@ -501,12 +538,12 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
         <span>Core Specialization</span>
       </div>
     </div>
-
+ 
     <div class="live-status">
       <span class="live-dot"></span>
       Market community is active
     </div>
-
+ 
     <a class="cta" target="_blank" href="https://t.me/+bKLaSiOQ_cA0Nzk0" id="join" aria-label="Join Pro Trading Insights">
       <!-- TrendingUp icon -->
       <svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
@@ -514,12 +551,12 @@ src="https://www.facebook.com/tr?id=1003922805736451&ev=PageView&noscript=1"/>
       <!-- BadgeCheck icon -->
       <svg viewBox="0 0 24 24"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
     </a>
-
+ 
     <p class="trust-line">Free access • No card required • Learn before you trade</p>
     <p class="disclaimer">Trading involves risk. Past performance does not guarantee future results.</p>
-
+ 
   </section>
 </main>
-
+ 
 </body>
 </html>
