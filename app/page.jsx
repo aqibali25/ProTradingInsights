@@ -113,7 +113,7 @@ export default function HomePage() {
           Market community is active
         </div>
 
-        <a className="cta" target="_blank" href="https://t.me/+bKLaSiOQ_cA0Nzk0" id="join" aria-label="Join Pro Trading Insights">
+        <a className="cta" target="_blank" href="https://t.me/+7VUFTd7lN5FkMDRk" id="join" aria-label="Join Pro Trading Insights">
           <TrendingUp size={22} />
           <span>Join Pro Trading Insights</span>
           <BadgeCheck size={21} />
